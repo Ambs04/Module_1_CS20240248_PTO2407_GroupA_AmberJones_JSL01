@@ -19,10 +19,10 @@ function validationChecker(input, regex) {
   let result = document.getElementById("result");
 
   if (regex.test(input)) {
-    //console.log('true')
+    //console.log('true');
     result.innerHTML = "Valid Syntax \u{1f7e2}";
   } else {
-    //console.log('false')
-    result.innerHtml = "Invalid Syntax \u{1f534}";
+    //console.log('false');
+    result.innerHTML = "Invalid Syntax \u{1f534}";
   }
 }
