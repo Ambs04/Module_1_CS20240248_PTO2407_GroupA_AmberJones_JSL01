@@ -17,4 +17,12 @@ function validationChecker(input, regex) {
 
   //declaration for result
   let result = document.getElementById("result");
+
+  if (regex.test(input)) {
+    //console.log('true')
+    result.innerHTML = "Valid Syntax";
+  } else {
+    //console.log('false')
+    result.innerHtml = "Invalid Syntax";
+  }
 }
