@@ -4,7 +4,7 @@ function validateSyntax() {
   // Placeholder for validation result
   let result = "";
 
-  validationChecker();
+  validationChecker(input, syntaxPattern);
 }
 
 //declaration of regular expression
