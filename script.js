@@ -3,6 +3,8 @@ function validateSyntax() {
   // Validation logic goes here
   // Placeholder for validation result
   let result = "";
+
+  validationChecker();
 }
 
 //declaration of regular expression
