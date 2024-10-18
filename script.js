@@ -20,9 +20,9 @@ function validationChecker(input, regex) {
 
   if (regex.test(input)) {
     //console.log('true')
-    result.innerHTML = "Valid Syntax";
+    result.innerHTML = "Valid Syntax \u{1f7e2}";
   } else {
     //console.log('false')
-    result.innerHtml = "Invalid Syntax";
+    result.innerHtml = "Invalid Syntax \u{1f534}";
   }
 }
